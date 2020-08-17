@@ -70,7 +70,7 @@ else()
 endif()
 
 # build dir
-set(OUT_DIR ${SOLUTION_DIR}/../build)
+set(OUT_DIR ${SOLUTION_DIR}/build)
 
 #create install dir
 file(MAKE_DIRECTORY ${OUT_DIR})
